@@ -1,0 +1,5 @@
+require 'alert_logic/resources/base_resource'
+require 'alert_logic/resources/filters'
+require 'alert_logic/resources/appliance'
+require 'alert_logic/resources/policy'
+require 'alert_logic/resources/protected_host'

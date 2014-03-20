@@ -1,0 +1,13 @@
+AllCops:
+  Excludes:
+    - vendor/**
+HashSyntax:
+  EnforcedStyle: hash_rockets
+MethodLength:
+  Max: 30
+Eval:
+  Enabled: false
+RegexpLiteral:
+  Enabled: false
+Documentation:
+  Enabled: false
