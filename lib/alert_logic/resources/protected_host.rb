@@ -58,7 +58,7 @@ module AlertLogic
       payload = { 'protectedhost' =>
         { policy_type => { 'policy' => { 'id' => policy_id } } }
       }
-      AlertLogic.api_client.edit('protectedhost', id, payload)
+      res = AlertLogic.api_client.edit('protectedhost', id, payload)
       AlertLogic.logger.debug res.body.inspect
       reload!
       AlertLogic.logger.info "#{policy_type} policy updated!"
